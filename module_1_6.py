@@ -1,0 +1,15 @@
+my_dict={'Маша':1985,'Миша':1983,'Ваня':1981,'Петя':1986}
+print(my_dict)
+print(my_dict.get('Миша'))
+print(my_dict.get('Рита'))
+my_dict.update({'Коля':1965,
+                'Тоня':1988})
+a=my_dict.pop('Тоня')
+print(a)
+print(my_dict)
+my_set={1,3,5,3,5,'of','kv','of'}
+print(my_set)
+my_set.add(8)
+my_set.add(9)
+my_set.remove('kv')
+print(my_set)
